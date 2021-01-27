@@ -2,8 +2,8 @@ import base64
 import json
 import requests
 
-from django.utils import six
-from django.utils.six import BytesIO as StringIO
+import six
+from six import BytesIO as StringIO
 from requests.exceptions import ConnectionError, SSLError, Timeout
 from requests import sessions
 from django.http import HttpResponse
